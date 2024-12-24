@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Diamond Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-page">
+        <h1>Free Fire Diamond Generator</h1>
+        <p>Please login to continue</p>
+        <div class="login-buttons">
+            <button id="facebook-login" class="social-login facebook">Login with Facebook</button>
+            <button id="google-login" class="social-login google">Login with Google</button>
+        </div>
+    </div>
+
+    <div id="generator-page" style="display: none;">
+        <h1>Diamond Generator</h1>
+        <form id="generatorForm">
+            <input type="text" id="ffid" placeholder="Enter your Free Fire ID" required>
+            <input type="number" id="diamonds" placeholder="Enter the number of diamonds" required min="1" max="9999">
+            <button type="submit">Generate Diamonds</button>
+        </form>
+
+        <div class="progress-container" id="progressContainer" style="display: none;">
+            <h3>Generating Diamonds...</h3>
+            <div class="progress-bar">
+                <div class="progress-bar-inner" id="progressBarInner"></div>
+            </div>
+            <p id="progressText">0%</p>
+        </div>
+
+        <div class="result-container" id="resultContainer">
+            <h3 class="success">Success!</h3>
+            <p>Your Free Fire ID: <span id="displayFFID"></span></p>
+            <p>Diamonds Added: <span id="displayDiamonds"></span></p>
+            <p>This website was created by <strong>SuryaPrabhas</strong>.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
