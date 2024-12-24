@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.login-buttons {
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.social-login {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.social-login.facebook {
+    background: #3b5998;
+}
+
+.social-login.google {
+    background: #db4437;
+}
+
+form, .progress-container, .result-container {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="number"], button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #007acc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005f99;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f4f4f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress-bar-inner {
+    width: 0;
+    height: 100%;
+    background: #007acc;
+    transition: width 0.3s ease;
+}
+
+.result-container {
+    display: none;
+}
+
+.success {
+    font-size: 20px;
+    color: #28a745;
+}
