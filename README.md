@@ -29,7 +29,7 @@ This is a fun project that simulates a Free Fire diamond generator interface. It
 ---
 
 ## Demo  
-Here is a live demo of the project: [Free Fire Diamond Generator (Demo)](YourDemoLinkHere)
+Here is a live demo of the project: [Free Fire Diamond Generator (Demo)](https://suryaprabhas1245.github.io/FreeFireDiamonds/)
 
 ---
 
